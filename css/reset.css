@@ -1,0 +1,72 @@
+/* 
+将需要用到的标签以及对标签本身已有的样式进行样式重置
+ */
+
+body,p,h1,h2,h3,h4{
+    margin:0;
+}
+ul{
+    margin:0;
+    padding:0
+}
+li{
+    list-style: none;
+}
+img{
+    border:none;
+    vertical-align: middle;
+}
+a{
+    text-decoration: none;
+    color:#3c3c3c;  /*淘宝页面大部分所用的一个颜色单独提出来设置，相当于全局设置 */
+}
+i{
+    font-style: none;  /*取消默认的斜体设置 */
+}
+input{
+    margin:0;
+    padding:0;
+}
+button{
+    outline: none;
+}
+body{
+    font:12px/1.5 tahoma,arial,'Hiragino Sans GB','\5B8B\4f53',sans-serif;
+    color:#3c3c3c;
+    background-color: #f4f4f4;
+}
+
+/* 大型项目中都会有预定义的样式，就是把使用频率比较高的样式单独放在一个文件中 */
+.clearfix:after{
+    content:'';
+    display:block;
+    clear: both;
+}
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+.layer{
+    width:1190px;
+    margin:0 auto;
+}
+.c4{
+    color:#f40;
+}
+.c5{
+    color:#f50;
+}
+.mt10{
+    margin-top:10px;
+}
+.mr10{
+    margin-right: 10px;
+}
+.mr7{
+    margin-right: 7px;
+}
+.mr5{
+    margin-right: 5px;
+}
