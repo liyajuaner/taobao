@@ -23,12 +23,19 @@ a{
 i{
     font-style: none;  /*取消默认的斜体设置 */
 }
-input{
+input,button{
     margin:0;
     padding:0;
 }
 button{
     outline: none;
+    border: none;
+}
+table{
+    border-collapse: collapse;  /* 边框模式，合并的模式 */
+}
+th,td{
+    padding: 0;
 }
 body{
     font:12px/1.5 tahoma,arial,'Hiragino Sans GB','\5B8B\4f53',sans-serif;
